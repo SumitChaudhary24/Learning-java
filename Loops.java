@@ -44,5 +44,23 @@ public class Loops {
             }
             System.out.println("printed: "+count);
         }
+        //Making patterns
+        
+        for (int t = 0; t < 5; t++) {
+            for (int b = 0; b <= t; b++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+        for (int t = 0; t <10 ; t++) {
+            int j = 0;
+            while(j<=5){
+                System.out.print(j+" ");
+                j++;
+            }
+            System.out.println();
+
+        }
     }
 }
